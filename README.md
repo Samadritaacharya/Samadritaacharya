@@ -15,8 +15,12 @@
 </p>
 
 <p align="center">
-  Germany-based · Open to junior and associate opportunities across Germany ·
-  <a href="https://www.linkedin.com/in/samadrita-acharya-a07266184/">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/samadrita-acharya-a07266184/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Samadrita_Acharya-0A66C2?logo=linkedin&logoColor=white">
+  </a>
+  <img alt="Location Germany" src="https://img.shields.io/badge/Location-Germany-555555">
+  <img alt="Open to work" src="https://img.shields.io/badge/Open_to_Work-Junior_%26_Associate_Roles-2EA44F">
+  <img alt="Portfolio apps" src="https://img.shields.io/badge/Live_Portfolio-5_Apps-8250DF">
 </p>
 
 ---
@@ -50,7 +54,7 @@ I work at the intersection of technical environments and structured execution:
 
 ---
 
-## Five-minute portfolio review
+## Start here — five-minute recruiter walkthrough
 
 1. Start with **ITSM Incident & SLA Analytics** to see my IBM/Kyndryl service-operations experience translated into a tested analytical product.
 2. Open **CloudOps / AIOps Reliability** for cloud-service health, anomalies, deployment risk and incident/runbook thinking.
@@ -124,4 +128,4 @@ I am particularly interested in Germany-wide junior and associate roles in:
 - [LinkedIn](https://www.linkedin.com/in/samadrita-acharya-a07266184/)
 - [GitHub repositories](https://github.com/Samadritaacharya?tab=repositories)
 
-<sub>The terminal profile card is generated from a self-contained Python/SVG workflow and uses only a blinking SMIL cursor animation. Design concept adapted from the ASCII Terminal Art guide by Careers with Aniket.</sub>
+<sub>The terminal card uses a photo-derived ASCII portrait generated from my GitHub profile image, separate dark/light SVG themes, and a single SMIL blinking cursor. Design concept adapted from the ASCII Terminal Art guide by Careers with Aniket.</sub>
