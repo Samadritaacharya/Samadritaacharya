@@ -1,0 +1,28 @@
+name: Validate profile card
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile generator
+        run: python -m py_compile scripts/generate_profile_card.py
+      - name: Regenerate SVG cards
+        run: python scripts/generate_profile_card.py
+      - name: Validate SVG XML
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          for path in ("dark_mode.svg", "light_mode.svg"):
+              ET.parse(path)
+              print(f"Validated {path}")
+          PY
