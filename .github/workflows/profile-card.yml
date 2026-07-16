@@ -14,8 +14,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Compile generator
-        run: python -m py_compile scripts/generate_profile_card.py
+      - name: Compile profile scripts
+        run: |
+          python -m py_compile scripts/generate_profile_card.py
+          python -m py_compile scripts/photo_to_ascii.py
+      - name: Verify portrait source
+        run: test -s assets/profile_ascii.txt
       - name: Regenerate SVG cards
         run: python scripts/generate_profile_card.py
       - name: Validate SVG XML
