@@ -20,7 +20,7 @@
   </a>
   <img alt="Location Germany" src="https://img.shields.io/badge/Location-Germany-555555">
   <img alt="Open to work" src="https://img.shields.io/badge/Open_to_Work-Junior_%26_Associate_Roles-2EA44F">
-  <img alt="Portfolio apps" src="https://img.shields.io/badge/Live_Portfolio-5_Apps-8250DF">
+  <img alt="Portfolio apps" src="https://img.shields.io/badge/Live_Portfolio-6_Apps-8250DF">
 </p>
 
 ---
@@ -44,6 +44,7 @@ I work at the intersection of technical environments and structured execution:
 
 | Project | Live demo | Source code | What it demonstrates |
 |---|---|---|---|
+| **PlatformPulse — Developer Platform Product Lab** | [Open experience](https://samadritaacharya.github.io/platformpulse-developer-platform/) | [Repository](https://github.com/Samadritaacharya/platformpulse-developer-platform) | Developer discovery, secure golden paths, service ownership, CI/CD and SLO metrics, experimentation, AI governance, reliability and evidence-based product roadmaps |
 | **ITSM Incident & SLA Analytics** | [Open app](https://itsm-incident-sla-analytics.streamlit.app/) | [Repository](https://github.com/Samadritaacharya/itsm-incident-sla-analytics) | SLA breach-risk prediction, MTTR, root cause, change impact, service health and PMO action planning |
 | **CloudOps / AIOps Reliability Dashboard** | [Open app](https://cloudops-aiops-reliability-dashboard.streamlit.app/) | [Repository](https://github.com/Samadritaacharya/cloudops-aiops-reliability-dashboard) | Cloud telemetry, anomaly detection, incidents, deployment impact, runbooks and executive RAG reporting |
 | **AI ResearchOps Control Tower** | [Open app](https://ai-researchops-control-tower.streamlit.app/) | [Repository](https://github.com/Samadritaacharya/ai-researchops-control-tower) | AI initiative intake, uncertainty, RAID, RACI, experiments, governance, roadmaps and product handover |
@@ -56,11 +57,12 @@ I work at the intersection of technical environments and structured execution:
 
 ## Start here — five-minute recruiter walkthrough
 
-1. Start with **ITSM Incident & SLA Analytics** to see my IBM/Kyndryl service-operations experience translated into a tested analytical product.
-2. Open **CloudOps / AIOps Reliability** for cloud-service health, anomalies, deployment risk and incident/runbook thinking.
-3. Review **AI ResearchOps Control Tower** for technical PMO governance across uncertain AI/ML initiatives.
-4. Try **Meeting Intelligence Agent** for AI-enabled project workflow automation and export-ready stakeholder communication.
-5. Use **Tech Retail Operations Intelligence** to see how I convert operational data into prioritized business actions.
+1. Start with **PlatformPulse** for my broadest product-management case: developer discovery → secure self-service → platform metrics → experimentation → roadmap and governance.
+2. Open **ITSM Incident & SLA Analytics** to see my IBM/Kyndryl service-operations experience translated into a tested analytical product.
+3. Open **CloudOps / AIOps Reliability** for cloud-service health, anomalies, deployment risk and incident/runbook thinking.
+4. Review **AI ResearchOps Control Tower** for technical PMO governance across uncertain AI/ML initiatives.
+5. Try **Meeting Intelligence Agent** for AI-enabled project workflow automation and export-ready stakeholder communication.
+6. Use **Tech Retail Operations Intelligence** to see how I convert operational data into prioritized business actions.
 
 ---
 
