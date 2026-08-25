@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Samadritaacharya/Samadritaacharya/main/dark_mode.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Samadritaacharya/Samadritaacharya/main/light_mode.svg">
-      <img alt="Samadrita Acharya - AI Transformation and Technical Project Management" src="https://raw.githubusercontent.com/Samadritaacharya/Samadritaacharya/main/light_mode.svg" width="100%">
+      <img alt="Samadrita Acharya - AI Transformation, Technical Project Management and Digital Operations" src="https://raw.githubusercontent.com/Samadritaacharya/Samadritaacharya/main/light_mode.svg" width="860">
     </picture>
   </a>
 </p>
@@ -11,7 +11,7 @@
 <h1 align="center">Hi, I’m Samadrita Acharya 👋</h1>
 
 <p align="center">
-  <strong>AI Transformation · Technical Project Management · Cloud Delivery · AIOps · PMO · ITSM/ITOM · Digital Operations</strong>
+  <strong>Technical Project Management · AI Transformation · Cloud Delivery · AIOps · PMO · ITSM/ITOM · Digital Operations</strong>
 </p>
 
 <p align="center">
@@ -25,9 +25,41 @@
 
 ---
 
+## ⭐ Flagship build — PlatformPulse
+
+### [PlatformPulse — Developer Platform Product Lab](https://github.com/Samadritaacharya/platformpulse-developer-platform)
+
+**[Open the live product experience](https://samadritaacharya.github.io/platformpulse-developer-platform/)** · **[View source](https://github.com/Samadritaacharya/platformpulse-developer-platform)**
+
+An end-to-end developer-platform product case connecting **developer discovery, secure golden paths, service ownership, CI/CD and SLO metrics, A/B experimentation, AI governance, reliability and evidence-based roadmap decisions**.
+
+- **9 product views** spanning discovery → delivery → measurement → governance
+- secure-by-default service generator with Docker, Kubernetes, Helm and CI artefacts
+- synthetic platform telemetry, experiment evidence and service-health analytics
+- automated QA, browser validation, static security analysis and dependency scanning
+- recruiter-friendly visual experience plus the complete Streamlit implementation
+
+> This is the broadest demonstration of how I connect product thinking, technical delivery, governance and measurable operational outcomes.
+
+---
+
+## Portfolio map
+
+| Project | Live app | What it demonstrates |
+|---|---|---|
+| **ITSM Incident & SLA Analytics** | [Open app](https://itsm-incident-sla-analytics.streamlit.app/) | SLA breach-risk prediction, MTTR, root cause, change impact, service health and owner-ready PMO actions |
+| **CloudOps / AIOps Reliability Dashboard** | [Open app](https://cloudops-aiops-reliability-dashboard.streamlit.app/) | Cloud telemetry, anomaly detection, deployment impact, incident prioritisation, runbooks and executive RAG reporting |
+| **AI ResearchOps Control Tower** | [Open app](https://ai-researchops-control-tower.streamlit.app/) | AI initiative intake, uncertainty, RAID, RACI, experiments, governance, roadmaps and product handover |
+| **Meeting Intelligence Agent** | [Open app](https://meeting-intelligence-agent.streamlit.app/) | Meeting-to-PMO automation, decisions, actions, risks, RAG status and PDF/DOCX/CSV/Markdown exports |
+| **Tech Retail Operations Intelligence** | [Open app](https://tech-retail-operations-intelligence.streamlit.app/) | Fulfilment, returns, customer support, inventory risk, campaign impact and cross-functional action planning |
+
+> All portfolio datasets and scenarios are synthetic. No confidential SAP, IBM, Kyndryl, university, client, customer or personal data is used.
+
+---
+
 ## Recruiter snapshot
 
-I am a technology and project-delivery professional with an **M.Sc. in Management & Engineering from RWTH Aachen University** and a Computer Science background. My experience spans **SAP Cloud Delivery Architecture, AIOps and Sovereign Cloud PMO**, **IBM/Kyndryl enterprise IT service operations**, applied AI/ML research, and independent data-product development.
+I am a technology and project-delivery professional with an **M.Sc. in Management & Engineering from RWTH Aachen University** and a Computer Science background. My experience spans **SAP Cloud Delivery Architecture, AIOps and Sovereign Cloud PMO**, **IBM/Kyndryl enterprise IT service operations**, applied AI/ML research and independent data-product development.
 
 I work at the intersection of technical environments and structured execution:
 
@@ -36,33 +68,18 @@ I work at the intersection of technical environments and structured execution:
 - cloud operations, AIOps, observability and incident workflows
 - ITSM/ITOM, incident, problem, change and SLA management
 - Python analytics, machine-learning workflows and executive dashboards
-- clear ownership, prioritized actions and leadership-ready reporting
+- clear ownership, prioritised actions and leadership-ready reporting
 
 ---
 
-## Featured live portfolio
+## Five-minute portfolio walkthrough
 
-| Project | Live demo | Source code | What it demonstrates |
-|---|---|---|---|
-| **PlatformPulse — Developer Platform Product Lab** | [Open experience](https://samadritaacharya.github.io/platformpulse-developer-platform/) | [Repository](https://github.com/Samadritaacharya/platformpulse-developer-platform) | Developer discovery, secure golden paths, service ownership, CI/CD and SLO metrics, experimentation, AI governance, reliability and evidence-based product roadmaps |
-| **ITSM Incident & SLA Analytics** | [Open app](https://itsm-incident-sla-analytics.streamlit.app/) | [Repository](https://github.com/Samadritaacharya/itsm-incident-sla-analytics) | SLA breach-risk prediction, MTTR, root cause, change impact, service health and PMO action planning |
-| **CloudOps / AIOps Reliability Dashboard** | [Open app](https://cloudops-aiops-reliability-dashboard.streamlit.app/) | [Repository](https://github.com/Samadritaacharya/cloudops-aiops-reliability-dashboard) | Cloud telemetry, anomaly detection, incidents, deployment impact, runbooks and executive RAG reporting |
-| **AI ResearchOps Control Tower** | [Open app](https://ai-researchops-control-tower.streamlit.app/) | [Repository](https://github.com/Samadritaacharya/ai-researchops-control-tower) | AI initiative intake, uncertainty, RAID, RACI, experiments, governance, roadmaps and product handover |
-| **Meeting Intelligence Agent** | [Open app](https://meeting-intelligence-agent.streamlit.app/) | [Repository](https://github.com/Samadritaacharya/meeting-intelligence-agent) | Meeting-to-PMO automation, decisions, actions, risks, RAG status and PDF/DOCX/CSV/Markdown exports |
-| **Tech Retail Operations Intelligence** | [Open app](https://tech-retail-operations-intelligence.streamlit.app/) | [Repository](https://github.com/Samadritaacharya/tech-retail-operations-intelligence) | Fulfillment, returns, customer support, inventory risk, campaign impact and owner-based action planning |
-
-> All project datasets and scenarios are synthetic. No confidential SAP, IBM, Kyndryl, university, client, customer or personal data is used.
-
----
-
-## Start here — five-minute recruiter walkthrough
-
-1. Start with **PlatformPulse** for my broadest product-management case: developer discovery → secure self-service → platform metrics → experimentation → roadmap and governance.
-2. Open **ITSM Incident & SLA Analytics** to see my IBM/Kyndryl service-operations experience translated into a tested analytical product.
-3. Open **CloudOps / AIOps Reliability** for cloud-service health, anomalies, deployment risk and incident/runbook thinking.
-4. Review **AI ResearchOps Control Tower** for technical PMO governance across uncertain AI/ML initiatives.
-5. Try **Meeting Intelligence Agent** for AI-enabled project workflow automation and export-ready stakeholder communication.
-6. Use **Tech Retail Operations Intelligence** to see how I convert operational data into prioritized business actions.
+1. **PlatformPulse** — broadest product-management and developer-platform case.
+2. **ITSM Incident & SLA Analytics** — enterprise service operations translated into a tested analytical product.
+3. **CloudOps / AIOps Reliability** — service health, anomaly detection, change risk and runbook thinking.
+4. **AI ResearchOps Control Tower** — technical PMO governance for uncertain AI/ML initiatives.
+5. **Meeting Intelligence Agent** — AI-enabled project workflow automation and export-ready stakeholder communication.
+6. **Tech Retail Operations Intelligence** — operational data converted into prioritised commercial actions.
 
 ---
 
@@ -72,7 +89,7 @@ I work at the intersection of technical environments and structured execution:
 
 - Supported project and PMO workflows across AIOps, cloud delivery and sovereign-cloud initiatives.
 - Structured project charters, RAID and decision tracking, dependencies, stakeholder registers, workshops, requirements, roadmaps and steering materials.
-- Contributed to delivery topics including observability/logging, incident workflows, operational readiness, release coordination, governance and service handover.
+- Contributed to observability/logging, incident workflows, operational readiness, release coordination, governance and service handover topics.
 - Worked across technical and management stakeholders using Jira, SharePoint, Excel, PowerPoint, Outlook and Teams.
 
 ### IBM / Kyndryl — Enterprise IT service operations
@@ -113,21 +130,12 @@ Final grade: **1.6** · Master’s thesis grade: **1.3**
 
 ## Target opportunities
 
-I am particularly interested in Germany-wide junior and associate roles in:
-
-- Technical Project Management / Project Coordination
-- PMO / Program Operations
-- AI Transformation / AI Delivery
-- Cloud Delivery / Cloud Operations / AIOps
-- ITSM / ITOM / Service Delivery
-- Digital Transformation / Business Technology
-- Product Operations / Tech Retail Operations
+I am particularly interested in Germany-wide junior and associate roles in **Technical Project Management, PMO / Program Operations, AI Transformation / AI Delivery, Cloud Delivery / AIOps, ITSM / ITOM, Digital Transformation, Product Operations and technology-led business operations**.
 
 ---
 
 ## Connect
 
-- [LinkedIn](https://www.linkedin.com/in/samadrita-acharya-a07266184/)
-- [GitHub repositories](https://github.com/Samadritaacharya?tab=repositories)
+[LinkedIn](https://www.linkedin.com/in/samadrita-acharya-a07266184/) · [GitHub repositories](https://github.com/Samadritaacharya?tab=repositories)
 
-<sub>The terminal card uses a photo-derived ASCII portrait generated from my GitHub profile image, separate dark/light SVG themes, and a single SMIL blinking cursor. Design concept adapted from the ASCII Terminal Art guide by Careers with Aniket.</sub>
+<sub>The terminal card uses a photo-derived ASCII portrait generated from my GitHub profile image, separate dark/light SVG themes and a single SMIL blinking cursor. Design concept adapted from the ASCII Terminal Art guide by Careers with Aniket.</sub>
