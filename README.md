@@ -49,9 +49,9 @@ These projects span governed AI, platform/product engineering, service reliabili
 
 Event-driven incident response with deterministic risk controls, grounded runbook retrieval, human approval gates, simulated remediation, stakeholder communication, and auditable AgentOps.
 
-`Python` `Next.js` `FastAPI` `GitHub Actions` `Docker`
+`Python` `Next.js` `FastAPI` `GitHub Actions` `Docker` `Vercel`
 
-[View project →](https://github.com/Samadritaacharya/autonomousops-incident-response-agent)
+[🚀 Open live app →](https://autonomousops-incident-response-age.vercel.app/) · [View source →](https://github.com/Samadritaacharya/autonomousops-incident-response-agent)
 
 </td>
 <td width="50%" valign="top">
