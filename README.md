@@ -2,7 +2,7 @@
   <img src="assets/profile-banner.svg" alt="Samadrita Acharya — AI, product, automation and impact" width="100%">
 </p>
 
-<h1 align="center">Hi, I'm Samadrita ♡・₊✧𐦍 </h1>
+<h1 align="center">Hi, I'm Samadrita 𐦍 </h1>
 
 <p align="center">
   <b>AI Transformation · Product Thinking · Automation · Technical Delivery</b>
