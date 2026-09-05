@@ -134,14 +134,16 @@ Fulfilment, checkout failures, returns, support pressure, inventory risk, campai
 </td>
 <td width="50%" valign="top">
 
-### 🗂️ [Explore all repositories](https://github.com/Samadritaacharya?tab=repositories)
-**Full public project index**
+### 🧠 [AIGate](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
+**AI Procurement, Governance & Value Control Plane**
 
-Browse the complete repository set, supporting documentation, experiments, implementation notes, CI workflows, and additional technical work beyond the seven systems highlighted here.
+Screens proposed AI systems for governance and procurement risk, maps missing evidence and approval routes, evaluates vendor readiness, quantifies ROI/payback, and keeps optional model reasoning advisory while deterministic policy owns authority.
 
-`AI` `Product` `Automation` `Operations` `Data`
+`Python` `Next.js` `FastAPI` `AI Governance` `Procurement` `Docker`
 
-[Explore repositories →](https://github.com/Samadritaacharya?tab=repositories)
+**Proof:** 41/41 Python tests, 7/7 TypeScript tests, 32/32 synthetic risk-band and decision cases, Python/TypeScript parity, production web smoke checks, and Docker build verified in CI.
+
+[View project →](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
 
 </td>
 </tr>
