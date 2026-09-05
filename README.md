@@ -38,7 +38,7 @@ I am most interested in the point where **technology becomes operationally usefu
 
 ## Project portfolio
 
-These projects span governed AI, platform/product engineering, service reliability, analytics, and workflow automation. They are presented with equal visual weight because each explores a different operating problem and system design.
+These projects span governed AI, cyber resilience and regulatory operations, platform/product engineering, service reliability, analytics, and workflow automation. They are presented with equal visual weight because each explores a different operating problem and system design.
 
 <table>
 <tr>
@@ -122,6 +122,36 @@ Transforms meeting transcripts into structured decisions, actions, risks, questi
 <tr>
 <td width="50%" valign="top">
 
+### 🧠 [AIGate](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
+**AI Procurement, Governance & Value Control Plane**
+
+Screens proposed AI systems for governance and procurement risk, maps missing evidence and approval routes, evaluates vendor readiness, quantifies ROI/payback, and keeps optional model reasoning advisory while deterministic policy owns authority.
+
+`Python` `Next.js` `FastAPI` `AI Governance` `Procurement` `Docker` `Vercel`
+
+**Proof:** 41/41 Python tests, 7/7 TypeScript tests, 32/32 synthetic risk-band and decision cases, Python/TypeScript parity, production web smoke checks, and Docker build verified in CI.
+
+[🚀 Open live app →](https://aigate-ai-procurement-governance-git-fix-eea249-riria5779-4847.vercel.app/#evidence) · [View source →](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ [RegOps EU](https://github.com/Samadritaacharya/eu-cyber-resilience-regops)
+**Cyber Resilience Operations Platform**
+
+Turns CycloneDX SBOM, vulnerability, and incident evidence into deterministic CRA + German NIS2 screening, 24h/72h reporting clocks, evidence-gap analysis, human approval routes, and auditable regulatory report drafts. AI remains advisory while policy and qualified humans retain authority.
+
+`Python` `Next.js` `FastAPI` `CycloneDX` `CRA` `NIS2` `Docker` `Vercel`
+
+**Proof:** 17/17 Python tests, 11/11 TypeScript tests, 30/30 synthetic policy cases, Python/TypeScript parity, production web smoke checks, FastAPI smoke, and Docker build verified in CI.
+
+[🚀 Open live app →](https://eu-cyber-resilience-regops-frontend.vercel.app/) · [View source →](https://github.com/Samadritaacharya/eu-cyber-resilience-regops)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🛍️ [Tech Retail Operations Intelligence](https://github.com/Samadritaacharya/tech-retail-operations-intelligence)
 **Retail Operations & Cross-Functional Action Planning**
 
@@ -134,16 +164,14 @@ Fulfilment, checkout failures, returns, support pressure, inventory risk, campai
 </td>
 <td width="50%" valign="top">
 
-### 🧠 [AIGate](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
-**AI Procurement, Governance & Value Control Plane**
+### 🗂️ [Explore all repositories](https://github.com/Samadritaacharya?tab=repositories)
+**More systems, experiments & supporting builds**
 
-Screens proposed AI systems for governance and procurement risk, maps missing evidence and approval routes, evaluates vendor readiness, quantifies ROI/payback, and keeps optional model reasoning advisory while deterministic policy owns authority.
+Browse the full repository portfolio for additional product, automation, analytics, AI-governance, reliability, and engineering work.
 
-`Python` `Next.js` `FastAPI` `AI Governance` `Procurement` `Docker` `Vercel`
+`GitHub` `Portfolio` `Open Source`
 
-**Proof:** 41/41 Python tests, 7/7 TypeScript tests, 32/32 synthetic risk-band and decision cases, Python/TypeScript parity, production web smoke checks, and Docker build verified in CI.
-
-[🚀 Open live app →](https://aigate-ai-procurement-governance-git-fix-eea249-riria5779-4847.vercel.app/) · [View source →](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
+[Explore repositories →](https://github.com/Samadritaacharya?tab=repositories)
 
 </td>
 </tr>
