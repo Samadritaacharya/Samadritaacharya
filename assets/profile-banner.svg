@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Samadrita Acharya — AI, product, automation and impact</title>
+  <desc id="desc">Editorial profile banner with warm neutral background, dark typography and copper accent.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5efe5"/>
+      <stop offset="0.58" stop-color="#ece2d5"/>
+      <stop offset="1" stop-color="#ddd0bf"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17191d"/>
+      <stop offset="1" stop-color="#30343b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="340" rx="26" fill="url(#paper)"/>
+  <rect x="34" y="30" width="1132" height="280" rx="22" fill="none" stroke="#b99569" stroke-opacity="0.34"/>
+
+  <g transform="translate(78 68)">
+    <text x="0" y="0" dominant-baseline="hanging" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="52" fill="#a06c2b">Build.</text>
+    <text x="94" y="56" dominant-baseline="hanging" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="52" fill="#a06c2b">Learn.</text>
+    <text x="14" y="112" dominant-baseline="hanging" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="52" fill="#a06c2b">Create.</text>
+    <text x="122" y="168" dominant-baseline="hanging" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="52" fill="#a06c2b">Impact.</text>
+  </g>
+
+  <line x1="430" y1="68" x2="430" y2="272" stroke="#9e8b74" stroke-opacity="0.45"/>
+
+  <g transform="translate(486 72)">
+    <text x="0" y="0" dominant-baseline="hanging" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16" letter-spacing="4" fill="#6f6459">SAMADRITA ACHARYA</text>
+    <text x="0" y="46" dominant-baseline="hanging" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="44" font-weight="700" fill="url(#ink)">AI • PRODUCT • AUTOMATION</text>
+    <text x="0" y="106" dominant-baseline="hanging" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="26" font-weight="500" fill="#343940">Governed systems. Useful products.</text>
+    <text x="0" y="143" dominant-baseline="hanging" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="26" font-weight="500" fill="#343940">Measurable outcomes.</text>
+    <rect x="0" y="202" width="92" height="4" rx="2" fill="#a06c2b"/>
+    <text x="118" y="190" dominant-baseline="hanging" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" fill="#6a5b4d">build with judgment · ship with evidence</text>
+  </g>
+</svg>
