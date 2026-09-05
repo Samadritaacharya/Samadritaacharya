@@ -139,11 +139,11 @@ Fulfilment, checkout failures, returns, support pressure, inventory risk, campai
 
 Screens proposed AI systems for governance and procurement risk, maps missing evidence and approval routes, evaluates vendor readiness, quantifies ROI/payback, and keeps optional model reasoning advisory while deterministic policy owns authority.
 
-`Python` `Next.js` `FastAPI` `AI Governance` `Procurement` `Docker`
+`Python` `Next.js` `FastAPI` `AI Governance` `Procurement` `Docker` `Vercel`
 
 **Proof:** 41/41 Python tests, 7/7 TypeScript tests, 32/32 synthetic risk-band and decision cases, Python/TypeScript parity, production web smoke checks, and Docker build verified in CI.
 
-[View project →](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
+[🚀 Open live app →](https://aigate-ai-procurement-governance-git-fix-eea249-riria5779-4847.vercel.app/) · [View source →](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
 
 </td>
 </tr>
