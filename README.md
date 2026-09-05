@@ -36,7 +36,9 @@ I am most interested in the point where **technology becomes operationally usefu
 
 ---
 
-## Featured builds
+## Project portfolio
+
+These projects span governed AI, platform/product engineering, service reliability, analytics, and workflow automation. They are presented with equal visual weight because each explores a different operating problem and system design.
 
 <table>
 <tr>
@@ -49,8 +51,6 @@ Event-driven incident response with deterministic risk controls, grounded runboo
 
 `Python` `Next.js` `FastAPI` `GitHub Actions` `Docker`
 
-**Proof:** 24 labeled synthetic scenarios, CI-verified evaluation, authorized `/approve` and `/reject` event path, and Python/TypeScript parity checks.
-
 [View project →](https://github.com/Samadritaacharya/autonomousops-incident-response-agent)
 
 </td>
@@ -59,11 +59,9 @@ Event-driven incident response with deterministic risk controls, grounded runboo
 ### ⭐ [PlatformPulse](https://github.com/Samadritaacharya/platformpulse-developer-platform)
 **Developer Platform Product Lab**
 
-A product case connecting developer discovery, secure golden paths, service ownership, CI/CD and SLO metrics, experimentation, AI governance, reliability, and evidence-based roadmap decisions.
+Developer discovery, secure golden paths, service ownership, CI/CD and SLO metrics, experimentation, AI governance, reliability, and evidence-based roadmap decisions in one platform-product case.
 
-`Python` `Streamlit` `Docker` `Kubernetes` `Helm` `CI/CD`
-
-**Proof:** 9 product views, secure-by-default service generation, synthetic platform telemetry, automated QA, and live product experience.
+`Python` `Next.js` `Streamlit` `Docker` `Kubernetes` `CI/CD`
 
 [Open live product →](https://samadritaacharya.github.io/platformpulse-developer-platform/) · [View source →](https://github.com/Samadritaacharya/platformpulse-developer-platform)
 
@@ -75,9 +73,9 @@ A product case connecting developer discovery, secure golden paths, service owne
 ### 🧭 [AI ResearchOps Control Tower](https://github.com/Samadritaacharya/ai-researchops-control-tower)
 **Governance for uncertain AI/ML initiatives**
 
-AI initiative intake, uncertainty, RAID, RACI, experiments, governance, roadmaps, and product handover in one decision-oriented workspace.
+AI initiative intake, uncertainty management, RAID, RACI, experiments, governance, roadmaps, steering, and product handover in a decision-oriented workspace.
 
-`Python` `Streamlit` `AI Governance` `PMO`
+`Python` `Next.js` `Streamlit` `AI Governance` `PMO`
 
 [Open live app →](https://ai-researchops-control-tower.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/ai-researchops-control-tower)
 
@@ -85,23 +83,69 @@ AI initiative intake, uncertainty, RAID, RACI, experiments, governance, roadmaps
 <td width="50%" valign="top">
 
 ### 📈 [ITSM Incident & SLA Analytics](https://github.com/Samadritaacharya/itsm-incident-sla-analytics)
-**Service reliability and operational decision support**
+**Service Reliability & Operational Decision Support**
 
-SLA breach risk, MTTR, root cause, change impact, service health, and owner-ready operational actions.
+SLA breach risk, MTTR, root cause, change impact, service health, and owner-ready operational actions for service-management and reliability decisions.
 
-`Python` `Analytics` `ITSM` `Service Reliability`
+`Python` `Next.js` `Analytics` `ITSM` `Service Reliability`
 
 [Open live app →](https://itsm-incident-sla-analytics.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/itsm-incident-sla-analytics)
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### ☁️ [CloudOps / AIOps Reliability Dashboard](https://github.com/Samadritaacharya/cloudops-aiops-reliability-dashboard)
+**AIOps Reliability & Operational Intelligence**
+
+Anomaly detection, alert prioritization, deployment-impact analysis, service-health scoring, runbook guidance, and executive RAG reporting for cloud operations.
+
+`Python` `scikit-learn` `AIOps` `Observability` `Streamlit`
+
+[Open live app →](https://cloudops-aiops-reliability-dashboard.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/cloudops-aiops-reliability-dashboard)
+
+</td>
+<td width="50%" valign="top">
+
+### 🗣️ [Meeting Intelligence Agent](https://github.com/Samadritaacharya/meeting-intelligence-agent)
+**Meeting-to-Workflow Automation**
+
+Transforms meeting transcripts into structured decisions, actions, risks, questions, PMO status, follow-up communication, and export-ready workflow outputs.
+
+`Python` `AI Workflow` `Automation` `Streamlit` `Structured Exports`
+
+[Open live app →](https://meeting-intelligence-agent.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/meeting-intelligence-agent)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛍️ [Tech Retail Operations Intelligence](https://github.com/Samadritaacharya/tech-retail-operations-intelligence)
+**Retail Operations & Cross-Functional Action Planning**
+
+Fulfilment, checkout failures, returns, support pressure, inventory risk, campaign impact, and owner-ready action planning across retail operations.
+
+`Python` `Analytics` `Operations` `PMO` `Streamlit`
+
+[Open live app →](https://tech-retail-operations-intelligence.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/tech-retail-operations-intelligence)
+
+</td>
+<td width="50%" valign="top">
+
+### 🗂️ [Explore all repositories](https://github.com/Samadritaacharya?tab=repositories)
+**Full public project index**
+
+Browse the complete repository set, supporting documentation, experiments, implementation notes, CI workflows, and additional technical work beyond the seven systems highlighted here.
+
+`AI` `Product` `Automation` `Operations` `Data`
+
+[Explore repositories →](https://github.com/Samadritaacharya?tab=repositories)
+
+</td>
+</tr>
 </table>
-
-### More projects
-
-- **[CloudOps / AIOps Reliability Dashboard](https://github.com/Samadritaacharya/cloudops-aiops-reliability-dashboard)** — anomaly detection, deployment impact, service health, runbooks, and executive RAG reporting. [Live app →](https://cloudops-aiops-reliability-dashboard.streamlit.app/)
-- **[Meeting Intelligence Agent](https://github.com/Samadritaacharya/meeting-intelligence-agent)** — meeting-to-workflow automation for decisions, actions, risks, status, and structured exports. [Live app →](https://meeting-intelligence-agent.streamlit.app/)
-- **[Tech Retail Operations Intelligence](https://github.com/Samadritaacharya/tech-retail-operations-intelligence)** — fulfilment, returns, support, inventory risk, campaign impact, and cross-functional action planning. [Live app →](https://tech-retail-operations-intelligence.streamlit.app/)
 
 ---
 
