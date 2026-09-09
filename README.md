@@ -2,10 +2,10 @@
   <img src="assets/profile-banner.svg" alt="Samadrita Acharya — AI, product, automation and impact" width="100%">
 </p>
 
-<h1 align="center">Hi, I'm Samadrita 𐦍 </h1>
+<h1 align="center">Samadrita Acharya</h1>
 
 <p align="center">
-  <b>AI Transformation · Product Thinking · Automation · Technical Delivery</b>
+  <b>Enterprise AI · Agentic Systems · Product & Platform Thinking · Automation · Technical Delivery</b>
 </p>
 
 <p align="center">
@@ -14,9 +14,10 @@
 
 <p align="center">
   <img alt="Agentic AI" src="https://img.shields.io/badge/Agentic_AI-111827?style=flat-square">
+  <img alt="RAG" src="https://img.shields.io/badge/Enterprise_RAG-0F766E?style=flat-square">
   <img alt="AI Governance" src="https://img.shields.io/badge/AI_Governance-7C3AED?style=flat-square">
+  <img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-1F2937?style=flat-square">
   <img alt="Product Strategy" src="https://img.shields.io/badge/Product_Strategy-A16207?style=flat-square">
-  <img alt="AIOps" src="https://img.shields.io/badge/AIOps-0F766E?style=flat-square">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
@@ -26,19 +27,45 @@
 
 ---
 
+## Featured flagship project
+
+### 🧠 [KnowledgeOps AI — Enterprise Agentic RAG Platform](https://github.com/Samadritaacharya/knowledgeops-ai-enterprise-agentic-rag)
+
+**Evidence-backed enterprise decisions with governed human authority.**
+
+KnowledgeOps AI turns synthetic engineering, procurement, commercial, cybersecurity and revision-controlled evidence into inspectable decision support. It combines **LangChain, LangGraph, hybrid retrieval, FastAPI, Qdrant-ready vector search, Next.js and TypeScript** with an explicit human approval boundary.
+
+The public app is live in a transparent zero-key deterministic mode; the repository separately verifies a real FastAPI + LangGraph `interrupt()`/resume path with same-thread approve/edit/reject semantics.
+
+**Engineering proof**
+
+- **60/60** evaluation cases retrieve at least one expected source in top-6
+- **0.9514** mean expected-document recall@6
+- **8/8** Python unit/governance tests
+- **8/8** TypeScript engine/bridge tests
+- real LangGraph HITL approve/edit/reject E2E
+- local Qdrant vector-query verification
+- Docker build verification
+- protected `main` with required Python + Web CI
+- external production smoke against the live Vercel deployment
+
+`Python` `LangChain` `LangGraph` `FastAPI` `Qdrant` `BM25` `Next.js` `TypeScript` `Docker` `GitHub Actions` `Vercel`
+
+### [🚀 Open live app →](https://knowledgeops-ai-enterprise-agentic-six.vercel.app/) · [View source →](https://github.com/Samadritaacharya/knowledgeops-ai-enterprise-agentic-rag) · [Verification →](https://github.com/Samadritaacharya/knowledgeops-ai-enterprise-agentic-rag/blob/main/VERIFICATION.md)
+
+---
+
 ## What I build
 
 | Governed AI | Product & Platform | Reliability & Operations |
 |---|---|---|
-| Human-in-the-loop agents, evaluation, policy boundaries, grounded reasoning | Developer-platform experiences, product analytics, experimentation, roadmap evidence | AIOps, ITSM/ITOM, incident workflows, service health, SLA and change governance |
+| Agentic RAG, HITL workflows, retrieval evaluation, policy boundaries, grounded reasoning | Developer-platform experiences, product analytics, experimentation, roadmap evidence | AIOps, ITSM/ITOM, incident workflows, service health, SLA and change governance |
 
 I am most interested in the point where **technology becomes operationally useful**: clear ownership, measurable controls, reliable workflows, explainable decisions, safe automation, and evidence that teams can act on.
 
 ---
 
-## Project portfolio
-
-These projects span governed AI, cyber resilience and regulatory operations, platform/product engineering, service reliability, analytics, and workflow automation. They are presented with equal visual weight because each explores a different operating problem and system design.
+## Selected project portfolio
 
 <table>
 <tr>
@@ -70,6 +97,32 @@ Developer discovery, secure golden paths, service ownership, CI/CD and SLO metri
 <tr>
 <td width="50%" valign="top">
 
+### 🧠 [AIGate](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
+**AI Procurement, Governance & Value Control Plane**
+
+Screens proposed AI systems for governance and procurement risk, maps missing evidence and approval routes, evaluates vendor readiness, quantifies ROI/payback, and keeps optional model reasoning advisory while deterministic policy owns authority.
+
+`Python` `Next.js` `FastAPI` `AI Governance` `Procurement` `Docker` `Vercel`
+
+[🚀 Open live app →](https://aigate-ai-procurement-governance-git-fix-eea249-riria5779-4847.vercel.app/#evidence) · [View source →](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ [RegOps EU](https://github.com/Samadritaacharya/eu-cyber-resilience-regops)
+**Cyber Resilience Operations Platform**
+
+Turns CycloneDX SBOM, vulnerability, and incident evidence into deterministic CRA + German NIS2 screening, reporting clocks, evidence-gap analysis, human approval routes, and auditable regulatory report drafts.
+
+`Python` `Next.js` `FastAPI` `CycloneDX` `CRA` `NIS2` `Docker` `Vercel`
+
+[🚀 Open live app →](https://eu-cyber-resilience-regops-frontend.vercel.app/) · [View source →](https://github.com/Samadritaacharya/eu-cyber-resilience-regops)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🧭 [AI ResearchOps Control Tower](https://github.com/Samadritaacharya/ai-researchops-control-tower)
 **Governance for uncertain AI/ML initiatives**
 
@@ -82,20 +135,6 @@ AI initiative intake, uncertainty management, RAID, RACI, experiments, governanc
 </td>
 <td width="50%" valign="top">
 
-### 📈 [ITSM Incident & SLA Analytics](https://github.com/Samadritaacharya/itsm-incident-sla-analytics)
-**Service Reliability & Operational Decision Support**
-
-SLA breach risk, MTTR, root cause, change impact, service health, and owner-ready operational actions for service-management and reliability decisions.
-
-`Python` `Next.js` `Analytics` `ITSM` `Service Reliability`
-
-[Open live app →](https://itsm-incident-sla-analytics.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/itsm-incident-sla-analytics)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### ☁️ [CloudOps / AIOps Reliability Dashboard](https://github.com/Samadritaacharya/cloudops-aiops-reliability-dashboard)
 **AIOps Reliability & Operational Intelligence**
 
@@ -104,6 +143,20 @@ Anomaly detection, alert prioritization, deployment-impact analysis, service-hea
 `Python` `scikit-learn` `AIOps` `Observability` `Streamlit`
 
 [Open live app →](https://cloudops-aiops-reliability-dashboard.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/cloudops-aiops-reliability-dashboard)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📈 [ITSM Incident & SLA Analytics](https://github.com/Samadritaacharya/itsm-incident-sla-analytics)
+**Service Reliability & Operational Decision Support**
+
+SLA breach risk, MTTR, root cause, change impact, service health, and owner-ready operational actions for service-management and reliability decisions.
+
+`Python` `Next.js` `Analytics` `ITSM` `Service Reliability`
+
+[Open live app →](https://itsm-incident-sla-analytics.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/itsm-incident-sla-analytics)
 
 </td>
 <td width="50%" valign="top">
@@ -116,36 +169,6 @@ Transforms meeting transcripts into structured decisions, actions, risks, questi
 `Python` `AI Workflow` `Automation` `Streamlit` `Structured Exports`
 
 [Open live app →](https://meeting-intelligence-agent.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/meeting-intelligence-agent)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 [AIGate](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
-**AI Procurement, Governance & Value Control Plane**
-
-Screens proposed AI systems for governance and procurement risk, maps missing evidence and approval routes, evaluates vendor readiness, quantifies ROI/payback, and keeps optional model reasoning advisory while deterministic policy owns authority.
-
-`Python` `Next.js` `FastAPI` `AI Governance` `Procurement` `Docker` `Vercel`
-
-**Proof:** 41/41 Python tests, 7/7 TypeScript tests, 32/32 synthetic risk-band and decision cases, Python/TypeScript parity, production web smoke checks, and Docker build verified in CI.
-
-[🚀 Open live app →](https://aigate-ai-procurement-governance-git-fix-eea249-riria5779-4847.vercel.app/#evidence) · [View source →](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
-
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ [RegOps EU](https://github.com/Samadritaacharya/eu-cyber-resilience-regops)
-**Cyber Resilience Operations Platform**
-
-Turns CycloneDX SBOM, vulnerability, and incident evidence into deterministic CRA + German NIS2 screening, 24h/72h reporting clocks, evidence-gap analysis, human approval routes, and auditable regulatory report drafts. AI remains advisory while policy and qualified humans retain authority.
-
-`Python` `Next.js` `FastAPI` `CycloneDX` `CRA` `NIS2` `Docker` `Vercel`
-
-**Proof:** 17/17 Python tests, 11/11 TypeScript tests, 30/30 synthetic policy cases, Python/TypeScript parity, production web smoke checks, FastAPI smoke, and Docker build verified in CI.
-
-[🚀 Open live app →](https://eu-cyber-resilience-regops-frontend.vercel.app/) · [View source →](https://github.com/Samadritaacharya/eu-cyber-resilience-regops)
 
 </td>
 </tr>
@@ -183,11 +206,11 @@ Browse the full repository portfolio for additional product, automation, analyti
 
 | Principle | What it means in my projects |
 |---|---|
-| **Evidence before claims** | Reproducible evaluation, tests, CI, synthetic fixtures, and visible limitations |
+| **Evidence before claims** | Reproducible evaluation, tests, CI, synthetic fixtures, explicit limitations and external smoke checks |
 | **Governance by design** | Human approval, allowlists, deterministic policy boundaries, audit traces |
 | **Product thinking** | Start with the user or operating problem, then design the workflow and measurable outcome |
 | **Safe automation** | Separate reasoning from authority; simulate risky actions until controls are production-ready |
-| **Operational clarity** | Make ownership, state, risk, evidence, and next actions visible |
+| **Operational clarity** | Make ownership, state, risk, evidence and next actions visible |
 
 ---
 
@@ -195,23 +218,22 @@ Browse the full repository portfolio for additional product, automation, analyti
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge">
+  <img src="https://img.shields.io/badge/LangGraph-111827?style=for-the-badge">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
 </p>
 
-**AI & data:** Python · SQL · Pandas · NumPy · scikit-learn · TensorFlow/Keras · evaluation · retrieval · agentic workflows  
+**AI & data:** Python · SQL · Pandas · NumPy · scikit-learn · LangChain · LangGraph · RAG evaluation · retrieval · agentic workflows  
 **Product & delivery:** technical program delivery · PMO · RAID · RACI · requirements · roadmaps · stakeholder alignment · executive reporting  
 **Cloud & operations:** AIOps · observability · ITSM/ITOM · incident · problem · change · SLA · service health  
-**Build:** Next.js · React · TypeScript · FastAPI · Streamlit · GitHub Actions · Docker · Jira · ServiceNow
+**Build:** Next.js · React · TypeScript · FastAPI · Streamlit · GitHub Actions · Docker · Vercel · Jira · ServiceNow
 
 ---
 
@@ -231,6 +253,7 @@ Browse the full repository portfolio for additional product, automation, analyti
 <p align="center">
   <a href="https://www.linkedin.com/in/samadrita-acharya-a07266184/"><img src="https://img.shields.io/badge/LinkedIn-Samadrita_Acharya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://github.com/Samadritaacharya?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore_my_projects-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://knowledgeops-ai-enterprise-agentic-six.vercel.app/"><img src="https://img.shields.io/badge/Featured_Live_Demo-KnowledgeOps_AI-0F766E?style=for-the-badge"></a>
 </p>
 
 <p align="center"><sub>Public demos use synthetic data and portfolio-safe scenarios. No confidential employer, client, customer, university, or personal data is used.</sub></p>
