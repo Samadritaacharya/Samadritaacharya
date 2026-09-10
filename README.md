@@ -14,10 +14,10 @@
 
 <p align="center">
   <img alt="Agentic AI" src="https://img.shields.io/badge/Agentic_AI-111827?style=flat-square">
-  <img alt="RAG" src="https://img.shields.io/badge/Enterprise_RAG-0F766E?style=flat-square">
+  <img alt="MCP" src="https://img.shields.io/badge/Model_Context_Protocol-0F766E?style=flat-square">
+  <img alt="Enterprise RAG" src="https://img.shields.io/badge/Enterprise_RAG-0F766E?style=flat-square">
   <img alt="AI Governance" src="https://img.shields.io/badge/AI_Governance-7C3AED?style=flat-square">
   <img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-1F2937?style=flat-square">
-  <img alt="Product Strategy" src="https://img.shields.io/badge/Product_Strategy-A16207?style=flat-square">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
@@ -27,100 +27,74 @@
 
 ---
 
-## Featured flagship project
+## Portfolio projects
 
-### 🧠 [KnowledgeOps AI — Enterprise Agentic RAG Platform](https://github.com/Samadritaacharya/knowledgeops-ai-enterprise-agentic-rag)
-
-**Evidence-backed enterprise decisions with governed human authority.**
-
-KnowledgeOps AI turns synthetic engineering, procurement, commercial, cybersecurity and revision-controlled evidence into inspectable decision support. It combines **LangChain, LangGraph, hybrid retrieval, FastAPI, Qdrant-ready vector search, Next.js and TypeScript** with an explicit human approval boundary.
-
-The public app is live in a transparent zero-key deterministic mode; the repository separately verifies a real FastAPI + LangGraph `interrupt()`/resume path with same-thread approve/edit/reject semantics.
-
-**Engineering proof**
-
-- **60/60** evaluation cases retrieve at least one expected source in top-6
-- **0.9514** mean expected-document recall@6
-- **8/8** Python unit/governance tests
-- **8/8** TypeScript engine/bridge tests
-- real LangGraph HITL approve/edit/reject E2E
-- local Qdrant vector-query verification
-- Docker build verification
-- protected `main` with required Python + Web CI
-- external production smoke against the live Vercel deployment
-
-`Python` `LangChain` `LangGraph` `FastAPI` `Qdrant` `BM25` `Next.js` `TypeScript` `Docker` `GitHub Actions` `Vercel`
-
-### [🚀 Open live app →](https://knowledgeops-ai-enterprise-agentic-six.vercel.app/) · [View source →](https://github.com/Samadritaacharya/knowledgeops-ai-enterprise-agentic-rag) · [Verification →](https://github.com/Samadritaacharya/knowledgeops-ai-enterprise-agentic-rag/blob/main/VERIFICATION.md)
-
----
-
-## Featured systems project
-
-### 🔌 [MCPBridge — Enterprise Agent Integration Gateway](https://github.com/Samadritaacharya/mcpbridge-enterprise-agent-integration)
-
-**Give AI agents tools while keeping permissions, human authority and auditability outside the model.**
-
-MCPBridge is a multi-domain **Model Context Protocol integration and governance gateway** across synthetic GitHub, ITSM and business systems. It uses the official MCP Python SDK v2, FastAPI and LangGraph, applies a fail-closed server/tool allowlist and role/effect policy, blocks sensitive writes behind explicit human approve/edit/reject, and records tamper-evident audit events.
-
-The public Next.js command center is deployed on Vercel in a transparent zero-key deterministic demo mode. The repository separately verifies the connected **Next.js → FastAPI → policy → official MCP client → MCP tool** path end to end, while an external production smoke test validates the live Vercel app against the exact deployed Git SHA after `main` updates.
-
-`MCP Python SDK v2` `LangGraph` `FastAPI` `Next.js 16` `TypeScript` `Human-in-the-Loop` `Docker` `GitHub Actions` `Vercel`
-
-### [🚀 Open live app →](https://mcpbridge-enterprise-agent-integrat-seven.vercel.app/) · [View source →](https://github.com/Samadritaacharya/mcpbridge-enterprise-agent-integration)
-
----
-
-## What I build
-
-| Governed AI | Product & Platform | Reliability & Operations |
-|---|---|---|
-| Agentic RAG, HITL workflows, retrieval evaluation, policy boundaries, grounded reasoning | Developer-platform experiences, product analytics, experimentation, roadmap evidence | AIOps, ITSM/ITOM, incident workflows, service health, SLA and change governance |
-
-I am most interested in the point where **technology becomes operationally useful**: clear ownership, measurable controls, reliable workflows, explainable decisions, safe automation, and evidence that teams can act on.
-
----
-
-## Selected project portfolio
+I do not treat one project as a permanent “flagship.” Different roles need different evidence, so this portfolio is organized for fast recruiter access: open the project that best matches the role, capability or problem you are evaluating. The first row highlights two current **agentic AI / enterprise AI architecture** builds, while every portfolio project remains equally available below.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ [AutonomousOps](https://github.com/Samadritaacharya/autonomousops-incident-response-agent)
-**AI Incident Governance & Service Recovery**
+### 🧠 [KnowledgeOps AI](https://github.com/Samadritaacharya/knowledgeops-ai-enterprise-agentic-rag)
+**Enterprise Agentic RAG Platform**
 
-Event-driven incident response with deterministic risk controls, grounded runbook retrieval, human approval gates, simulated remediation, stakeholder communication, and auditable AgentOps.
+Evidence-backed enterprise decision support with hybrid retrieval, LangGraph HITL, explicit human authority, evaluation gates and inspectable citations.
 
-`Python` `Next.js` `FastAPI` `GitHub Actions` `Docker` `Vercel`
+`Agentic AI` `RAG` `LangChain` `LangGraph` `FastAPI` `Qdrant` `Next.js` `Docker`
 
-[🚀 Open live app →](https://autonomousops-incident-response-age.vercel.app/) · [View source →](https://github.com/Samadritaacharya/autonomousops-incident-response-agent)
+[🚀 Live app →](https://knowledgeops-ai-enterprise-agentic-six.vercel.app/) · [Source →](https://github.com/Samadritaacharya/knowledgeops-ai-enterprise-agentic-rag) · [Verification →](https://github.com/Samadritaacharya/knowledgeops-ai-enterprise-agentic-rag/blob/main/VERIFICATION.md)
 
 </td>
 <td width="50%" valign="top">
 
-### ⭐ [PlatformPulse](https://github.com/Samadritaacharya/platformpulse-developer-platform)
-**Developer Platform Product Lab**
+### 🔌 [MCPBridge](https://github.com/Samadritaacharya/mcpbridge-enterprise-agent-integration)
+**Enterprise Agent Integration Gateway**
 
-Developer discovery, secure golden paths, service ownership, CI/CD and SLO metrics, experimentation, AI governance, reliability, and evidence-based roadmap decisions in one platform-product case.
+Multi-domain Model Context Protocol gateway with fail-closed policy, role/effect controls, human approve/edit/reject and tamper-evident auditability.
 
-`Python` `Next.js` `Streamlit` `Docker` `Kubernetes` `CI/CD`
+`MCP Python SDK v2` `LangGraph` `FastAPI` `Next.js` `HITL` `Docker` `GitHub Actions`
 
-[Open live product →](https://samadritaacharya.github.io/platformpulse-developer-platform/) · [View source →](https://github.com/Samadritaacharya/platformpulse-developer-platform)
+[🚀 Live app →](https://mcpbridge-enterprise-agent-integrat-seven.vercel.app/) · [Source →](https://github.com/Samadritaacharya/mcpbridge-enterprise-agent-integration)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
+### 🛡️ [AutonomousOps](https://github.com/Samadritaacharya/autonomousops-incident-response-agent)
+**AI Incident Governance & Service Recovery**
+
+Event-driven incident response with deterministic risk controls, grounded runbook retrieval, human approval gates, simulated remediation and auditable AgentOps.
+
+`Python` `Next.js` `FastAPI` `AIOps` `HITL` `Docker` `Vercel`
+
+[🚀 Live app →](https://autonomousops-incident-response-age.vercel.app/) · [Source →](https://github.com/Samadritaacharya/autonomousops-incident-response-agent)
+
+</td>
+<td width="50%" valign="top">
+
 ### 🧠 [AIGate](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
 **AI Procurement, Governance & Value Control Plane**
 
-Screens proposed AI systems for governance and procurement risk, maps missing evidence and approval routes, evaluates vendor readiness, quantifies ROI/payback, and keeps optional model reasoning advisory while deterministic policy owns authority.
+Screens proposed AI systems for governance and procurement risk, evidence gaps, approval routes, vendor readiness and ROI/payback while deterministic policy owns authority.
 
 `Python` `Next.js` `FastAPI` `AI Governance` `Procurement` `Docker` `Vercel`
 
-[🚀 Open live app →](https://aigate-ai-procurement-governance-git-fix-eea249-riria5779-4847.vercel.app/#evidence) · [View source →](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
+[🚀 Live app →](https://aigate-ai-procurement-governance-git-fix-eea249-riria5779-4847.vercel.app/#evidence) · [Source →](https://github.com/Samadritaacharya/aigate-ai-procurement-governance)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⭐ [PlatformPulse](https://github.com/Samadritaacharya/platformpulse-developer-platform)
+**Developer Platform Product Lab**
+
+Developer discovery, secure golden paths, service ownership, CI/CD and SLO metrics, experimentation, AI governance and evidence-based roadmap decisions.
+
+`Python` `Developer Platform` `Product Analytics` `Docker` `Kubernetes` `CI/CD`
+
+[🚀 Live product →](https://samadritaacharya.github.io/platformpulse-developer-platform/) · [Source →](https://github.com/Samadritaacharya/platformpulse-developer-platform)
 
 </td>
 <td width="50%" valign="top">
@@ -128,11 +102,11 @@ Screens proposed AI systems for governance and procurement risk, maps missing ev
 ### 🛡️ [RegOps EU](https://github.com/Samadritaacharya/eu-cyber-resilience-regops)
 **Cyber Resilience Operations Platform**
 
-Turns CycloneDX SBOM, vulnerability, and incident evidence into deterministic CRA + German NIS2 screening, reporting clocks, evidence-gap analysis, human approval routes, and auditable regulatory report drafts.
+Turns SBOM, vulnerability and incident evidence into deterministic CRA + German NIS2 screening, reporting clocks, evidence-gap analysis and human approval routes.
 
-`Python` `Next.js` `FastAPI` `CycloneDX` `CRA` `NIS2` `Docker` `Vercel`
+`Python` `Next.js` `FastAPI` `CycloneDX` `CRA` `NIS2` `Docker`
 
-[🚀 Open live app →](https://eu-cyber-resilience-regops-frontend.vercel.app/) · [View source →](https://github.com/Samadritaacharya/eu-cyber-resilience-regops)
+[🚀 Live app →](https://eu-cyber-resilience-regops-frontend.vercel.app/) · [Source →](https://github.com/Samadritaacharya/eu-cyber-resilience-regops)
 
 </td>
 </tr>
@@ -142,11 +116,11 @@ Turns CycloneDX SBOM, vulnerability, and incident evidence into deterministic CR
 ### 🧭 [AI ResearchOps Control Tower](https://github.com/Samadritaacharya/ai-researchops-control-tower)
 **Governance for uncertain AI/ML initiatives**
 
-AI initiative intake, uncertainty management, RAID, RACI, experiments, governance, roadmaps, steering, and product handover in a decision-oriented workspace.
+AI initiative intake, RAID, RACI, experiments, governance, roadmaps, steering and product handover in a decision-oriented workspace.
 
-`Python` `Next.js` `Streamlit` `AI Governance` `PMO`
+`Python` `AI Governance` `ResearchOps` `PMO` `Product Delivery`
 
-[Open live app →](https://ai-researchops-control-tower.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/ai-researchops-control-tower)
+[🚀 Live app →](https://ai-researchops-control-tower.streamlit.app/) · [Source →](https://github.com/Samadritaacharya/ai-researchops-control-tower)
 
 </td>
 <td width="50%" valign="top">
@@ -154,11 +128,11 @@ AI initiative intake, uncertainty management, RAID, RACI, experiments, governanc
 ### ☁️ [CloudOps / AIOps Reliability Dashboard](https://github.com/Samadritaacharya/cloudops-aiops-reliability-dashboard)
 **AIOps Reliability & Operational Intelligence**
 
-Anomaly detection, alert prioritization, deployment-impact analysis, service-health scoring, runbook guidance, and executive RAG reporting for cloud operations.
+Anomaly detection, alert prioritization, deployment-impact analysis, service-health scoring, runbook guidance and executive reliability reporting.
 
-`Python` `scikit-learn` `AIOps` `Observability` `Streamlit`
+`Python` `scikit-learn` `AIOps` `Observability` `Service Reliability`
 
-[Open live app →](https://cloudops-aiops-reliability-dashboard.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/cloudops-aiops-reliability-dashboard)
+[🚀 Live app →](https://cloudops-aiops-reliability-dashboard.streamlit.app/) · [Source →](https://github.com/Samadritaacharya/cloudops-aiops-reliability-dashboard)
 
 </td>
 </tr>
@@ -168,11 +142,11 @@ Anomaly detection, alert prioritization, deployment-impact analysis, service-hea
 ### 📈 [ITSM Incident & SLA Analytics](https://github.com/Samadritaacharya/itsm-incident-sla-analytics)
 **Service Reliability & Operational Decision Support**
 
-SLA breach risk, MTTR, root cause, change impact, service health, and owner-ready operational actions for service-management and reliability decisions.
+SLA breach risk, MTTR, root cause, change impact, service health and owner-ready operational actions for service-management decisions.
 
-`Python` `Next.js` `Analytics` `ITSM` `Service Reliability`
+`Python` `Analytics` `ITSM` `Service Reliability` `Operations`
 
-[Open live app →](https://itsm-incident-sla-analytics.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/itsm-incident-sla-analytics)
+[🚀 Live app →](https://itsm-incident-sla-analytics.streamlit.app/) · [Source →](https://github.com/Samadritaacharya/itsm-incident-sla-analytics)
 
 </td>
 <td width="50%" valign="top">
@@ -180,11 +154,11 @@ SLA breach risk, MTTR, root cause, change impact, service health, and owner-read
 ### 🗣️ [Meeting Intelligence Agent](https://github.com/Samadritaacharya/meeting-intelligence-agent)
 **Meeting-to-Workflow Automation**
 
-Transforms meeting transcripts into structured decisions, actions, risks, questions, PMO status, follow-up communication, and export-ready workflow outputs.
+Transforms meeting transcripts into structured decisions, actions, risks, questions, PMO status, follow-up communication and reusable workflow outputs.
 
-`Python` `AI Workflow` `Automation` `Streamlit` `Structured Exports`
+`Python` `AI Workflow` `Automation` `PMO` `Structured Exports`
 
-[Open live app →](https://meeting-intelligence-agent.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/meeting-intelligence-agent)
+[🚀 Live app →](https://meeting-intelligence-agent.streamlit.app/) · [Source →](https://github.com/Samadritaacharya/meeting-intelligence-agent)
 
 </td>
 </tr>
@@ -194,27 +168,41 @@ Transforms meeting transcripts into structured decisions, actions, risks, questi
 ### 🛍️ [Tech Retail Operations Intelligence](https://github.com/Samadritaacharya/tech-retail-operations-intelligence)
 **Retail Operations & Cross-Functional Action Planning**
 
-Fulfilment, checkout failures, returns, support pressure, inventory risk, campaign impact, and owner-ready action planning across retail operations.
+Fulfilment, checkout failures, returns, support pressure, inventory risk, campaign impact and owner-ready action planning across retail operations.
 
-`Python` `Analytics` `Operations` `PMO` `Streamlit`
+`Python` `Analytics` `Retail Operations` `PMO` `Decision Support`
 
-[Open live app →](https://tech-retail-operations-intelligence.streamlit.app/) · [View source →](https://github.com/Samadritaacharya/tech-retail-operations-intelligence)
+[🚀 Live app →](https://tech-retail-operations-intelligence.streamlit.app/) · [Source →](https://github.com/Samadritaacharya/tech-retail-operations-intelligence)
 
 </td>
 <td width="50%" valign="top">
 
-### 🗂️ [Explore all repositories](https://github.com/Samadritaacharya?tab=repositories)
-**More systems, experiments & supporting builds**
+### 🌍 [IndiVera](https://github.com/Samadritaacharya/indivera-eu-trust-platform)
+**India → Europe Trust & Sourcing Platform**
 
-Browse the full repository portfolio for additional product, automation, analytics, AI-governance, reliability, and engineering work.
+Evidence-first supplier readiness, verification, matching, product traceability and RFQ workflow for Indian textile/lifestyle SMEs and European buyers.
 
-`GitHub` `Portfolio` `Open Source`
+`Node.js` `PWA` `Trust Platform` `Supplier Evidence` `Procurement` `Vercel`
 
-[Explore repositories →](https://github.com/Samadritaacharya?tab=repositories)
+[🚀 Live app →](https://indivera-eu-trust-platform.vercel.app/) · [Source →](https://github.com/Samadritaacharya/indivera-eu-trust-platform)
 
 </td>
 </tr>
 </table>
+
+<p align="center">
+  <a href="https://github.com/Samadritaacharya?tab=repositories"><b>Explore all repositories →</b></a>
+</p>
+
+---
+
+## What I build
+
+| Governed AI | Product & Platform | Reliability & Operations |
+|---|---|---|
+| Agentic AI, MCP, RAG, HITL workflows, evaluation, policy boundaries, grounded reasoning | Developer-platform experiences, product analytics, experimentation, roadmaps, sourcing and digital workflows | AIOps, ITSM/ITOM, incident workflows, service health, SLA, change governance and operational analytics |
+
+I am most interested in the point where **technology becomes operationally useful**: clear ownership, measurable controls, reliable workflows, explainable decisions, safe automation and evidence that teams can act on.
 
 ---
 
@@ -223,7 +211,7 @@ Browse the full repository portfolio for additional product, automation, analyti
 | Principle | What it means in my projects |
 |---|---|
 | **Evidence before claims** | Reproducible evaluation, tests, CI, synthetic fixtures, explicit limitations and external smoke checks |
-| **Governance by design** | Human approval, allowlists, deterministic policy boundaries, audit traces |
+| **Governance by design** | Human approval, allowlists, deterministic policy boundaries and audit traces |
 | **Product thinking** | Start with the user or operating problem, then design the workflow and measurable outcome |
 | **Safe automation** | Separate reasoning from authority; simulate risky actions until controls are production-ready |
 | **Operational clarity** | Make ownership, state, risk, evidence and next actions visible |
@@ -234,6 +222,7 @@ Browse the full repository portfolio for additional product, automation, analyti
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/MCP-0F766E?style=for-the-badge">
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge">
   <img src="https://img.shields.io/badge/LangGraph-111827?style=for-the-badge">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
@@ -246,7 +235,7 @@ Browse the full repository portfolio for additional product, automation, analyti
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
 </p>
 
-**AI & data:** Python · SQL · Pandas · NumPy · scikit-learn · LangChain · LangGraph · RAG evaluation · retrieval · agentic workflows  
+**AI & data:** Python · SQL · Pandas · NumPy · scikit-learn · MCP · LangChain · LangGraph · RAG evaluation · retrieval · agentic workflows  
 **Product & delivery:** technical program delivery · PMO · RAID · RACI · requirements · roadmaps · stakeholder alignment · executive reporting  
 **Cloud & operations:** AIOps · observability · ITSM/ITOM · incident · problem · change · SLA · service health  
 **Build:** Next.js · React · TypeScript · FastAPI · Streamlit · GitHub Actions · Docker · Vercel · Jira · ServiceNow
@@ -269,7 +258,6 @@ Browse the full repository portfolio for additional product, automation, analyti
 <p align="center">
   <a href="https://www.linkedin.com/in/samadrita-acharya-a07266184/"><img src="https://img.shields.io/badge/LinkedIn-Samadrita_Acharya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://github.com/Samadritaacharya?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore_my_projects-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://knowledgeops-ai-enterprise-agentic-six.vercel.app/"><img src="https://img.shields.io/badge/Featured_Live_Demo-KnowledgeOps_AI-0F766E?style=for-the-badge"></a>
 </p>
 
-<p align="center"><sub>Public demos use synthetic data and portfolio-safe scenarios. No confidential employer, client, customer, university, or personal data is used.</sub></p>
+<p align="center"><sub>Public demos use synthetic or portfolio-safe scenarios. No confidential employer, client, customer, university or personal data is used.</sub></p>
