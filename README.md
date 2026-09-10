@@ -29,7 +29,7 @@
 
 ## Portfolio projects
 
-I do not treat one project as a permanent “flagship.” Different roles need different evidence, so this portfolio is organized for fast recruiter access: open the project that best matches the role, capability or problem you are evaluating. The first row highlights two current **agentic AI / enterprise AI architecture** builds, while every portfolio project remains equally available below.
+Management & Engineering graduate from RWTH Aachen with enterprise experience across SAP and IBM/Kyndryl, focused on building governed AI, automation, platform and data-driven operational systems. My portfolio spans **Agentic AI, MCP, RAG, human-in-the-loop governance, developer platforms, AIOps/ITSM, cyber resilience, procurement, research operations, retail analytics and digital trade**—translating complex enterprise problems into measurable, implementation-ready workflows.
 
 <table>
 <tr>
