@@ -55,6 +55,22 @@ The public app is live in a transparent zero-key deterministic mode; the reposit
 
 ---
 
+## Featured systems project
+
+### 🔌 [MCPBridge — Enterprise Agent Integration Gateway](https://github.com/Samadritaacharya/mcpbridge-enterprise-agent-integration)
+
+**Give AI agents tools while keeping permissions, human authority and auditability outside the model.**
+
+MCPBridge is a multi-domain **Model Context Protocol integration and governance gateway** across synthetic GitHub, ITSM and business systems. It uses the official MCP Python SDK v2, FastAPI and LangGraph, applies a fail-closed server/tool allowlist and role/effect policy, blocks sensitive writes behind explicit human approve/edit/reject, and records tamper-evident audit events.
+
+The public Next.js command center is deployed on Vercel in a transparent zero-key deterministic demo mode. The repository separately verifies the connected **Next.js → FastAPI → policy → official MCP client → MCP tool** path end to end, while an external production smoke test validates the live Vercel app against the exact deployed Git SHA after `main` updates.
+
+`MCP Python SDK v2` `LangGraph` `FastAPI` `Next.js 16` `TypeScript` `Human-in-the-Loop` `Docker` `GitHub Actions` `Vercel`
+
+### [🚀 Open live app →](https://mcpbridge-enterprise-agent-integrat-seven.vercel.app/) · [View source →](https://github.com/Samadritaacharya/mcpbridge-enterprise-agent-integration)
+
+---
+
 ## What I build
 
 | Governed AI | Product & Platform | Reliability & Operations |
