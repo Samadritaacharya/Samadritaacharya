@@ -15,9 +15,12 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Reconstruct and verify project payload
+        run: |
+          cat .payload/part*.b64 | base64 --decode > /tmp/decisionforge-payload.tar.gz
+          echo "e69e6fa1a6024fa3bd18fb8a7db5c0d7d60f81c5bec50199eaae760056a6e0d2  /tmp/decisionforge-payload.tar.gz" | sha256sum --check -
       - name: Expand tested project payload
         run: |
-          cp .decisionforge-payload.tar.gz /tmp/decisionforge-payload.tar.gz
           git rm -rf .
           tar -xzf /tmp/decisionforge-payload.tar.gz
           git add -A
