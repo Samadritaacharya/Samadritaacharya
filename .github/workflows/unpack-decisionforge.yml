@@ -23,6 +23,7 @@ jobs:
         run: |
           git rm -rf .
           tar -xzf /tmp/decisionforge-payload.tar.gz
+          rm -f .github/workflows/ci.yml
           git add -A
       - name: Commit expanded project tree
         run: |
