@@ -1,0 +1,29 @@
+name: Expand DecisionForge staging payload
+
+on:
+  push:
+    branches: [decisionforge-ai-staging]
+
+permissions:
+  contents: write
+
+jobs:
+  expand:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Expand tested project payload
+        run: |
+          cp .decisionforge-payload.tar.gz /tmp/decisionforge-payload.tar.gz
+          git rm -rf .
+          tar -xzf /tmp/decisionforge-payload.tar.gz
+          git add -A
+      - name: Commit expanded project tree
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Build DecisionForge AI end-to-end"
+          git push origin HEAD:decisionforge-ai-staging
