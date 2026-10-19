@@ -82,3 +82,20 @@ jobs:
           else
             echo 'No JavaScript package manifest; Python or profile verification applies.'
           fi
+      - name: Check public demo URLs from an internet-enabled runner
+        run: |
+          python - <<'PY'
+          import concurrent.futures, urllib.request, urllib.error
+          sites=[["ResearchOps","https://ai-researchops-control-tower.streamlit.app/"],["AIGate","https://aigate-ai-procurement-governance-git-fix-eea249-riria5779-4847.vercel.app/"],["AutonomousOps","https://autonomousops-incident-response-age.vercel.app/"],["CloudOps","https://cloudops-aiops-reliability-dashboard.streamlit.app/"],["DecisionForge","https://decisionforge-ai.vercel.app/"],["RegOps","https://eu-cyber-resilience-regops-frontend.vercel.app/"],["ITSM","https://itsm-incident-sla-analytics.streamlit.app/"],["KnowledgeOps","https://knowledgeops-ai-enterprise-agentic-six.vercel.app/"],["MCPBridge","https://mcpbridge-enterprise-agent-integrat-seven.vercel.app/"],["Meeting Intelligence","https://meeting-intelligence-agent.streamlit.app/"],["PlatformPulse","https://samadritaacharya.github.io/platformpulse-developer-platform/"],["RetailOps","https://tech-retail-operations-intelligence.streamlit.app/"]]
+          def check(item):
+              name,url=item
+              try:
+                  request=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; PortfolioCI/1.0)'})
+                  with urllib.request.urlopen(request,timeout=30) as r:
+                      return (name,r.status,r.geturl())
+              except urllib.error.HTTPError as e:return (name,e.code,str(e.url))
+              except Exception as e:return (name,'ERROR',str(e))
+          with concurrent.futures.ThreadPoolExecutor(max_workers=12) as pool:
+              for name,status,detail in pool.map(check,sites):
+                  print(f'PUBLIC_PROBE | {name} | {status} | {detail}',flush=True)
+          PY
